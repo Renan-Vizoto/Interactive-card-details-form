@@ -2,3 +2,79 @@
     margin: 0;
     padding: 0;
 }
+
+.background{
+    position: absolute;
+    height: 100%;
+}
+
+.front-card{
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 6%;
+}
+
+.img-front-card{
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 350px 150px 180px 10px rgb(213, 213, 213);
+}
+
+.text-front-card{
+    position: relative;
+}
+
+.back-card{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 17%;
+}
+
+.img-back-card{
+   position: absolute;
+}
+
+.text-back-card{
+    position: relative;
+    margin: 109px 350px;
+    color: rgb(227, 231, 231);
+    font-size: 20px;
+}
+
+.form{
+    position: absolute;
+    width: 35%;
+    margin-left: 64%;
+    margin-top: 13%;
+}
+
+#cd-name, #cd-number{
+    margin-left: 2%;
+    width: 60%;
+}
+
+#exp-date, #exp-date-2{
+    width: 35%;
+    position: absolute;
+}
+
+#mm{
+    width: 40%;
+}
+
+#yy{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 5%;
+    width: 34%;
+}
+
+#cvc{
+    position: relative;
+    margin-left: 30%;
+}
+
+#input-cvc{
+    margin-top: 4%;
+    width: 80%;
+}
